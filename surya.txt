@@ -1,0 +1,62 @@
+Token: #include        | Type: Unknown
+Token: <stdio.h>       | Type: Unknown
+Token: int             | Type: Keyword
+Token: fact            | Type: Identifier
+Token: (               | Type: Special Character
+Token: int             | Type: Keyword
+Token: n               | Type: Identifier
+Token: )               | Type: Special Character
+Token: {               | Type: Special Character
+Token: if              | Type: Keyword
+Token: (               | Type: Special Character
+Token: n<=0            | Type: Unknown
+Token: )               | Type: Special Character
+Token: {               | Type: Special Character
+Token: return          | Type: Keyword
+Token: 1               | Type: Constant
+Token: ;               | Type: Special Character
+Token: }               | Type: Special Character
+Token: else            | Type: Keyword
+Token: return          | Type: Keyword
+Token: (               | Type: Special Character
+Token: n*fact          | Type: Unknown
+Token: (               | Type: Special Character
+Token: n-1             | Type: Unknown
+Token: )               | Type: Special Character
+Token: )               | Type: Special Character
+Token: ;               | Type: Special Character
+Token: }               | Type: Special Character
+Token: int             | Type: Keyword
+Token: main            | Type: Identifier
+Token: (               | Type: Special Character
+Token: )               | Type: Special Character
+Token: {               | Type: Special Character
+Token: int             | Type: Keyword
+Token: n               | Type: Identifier
+Token: ;               | Type: Special Character
+Token: scanf           | Type: Identifier
+Token: (               | Type: Special Character
+Token: "%d"            | Type: Constant
+Token: ,               | Type: Special Character
+Token: &n              | Type: Unknown
+Token: )               | Type: Special Character
+Token: ;               | Type: Special Character
+Token: int             | Type: Keyword
+Token: res             | Type: Identifier
+Token: =               | Type: Operator
+Token: fact            | Type: Identifier
+Token: (               | Type: Special Character
+Token: n               | Type: Identifier
+Token: )               | Type: Special Character
+Token: ;               | Type: Special Character
+Token: printf          | Type: Identifier
+Token: (               | Type: Special Character
+Token: "fact : %d\n"   | Type: Constant
+Token: ,               | Type: Special Character
+Token: res             | Type: Identifier
+Token: )               | Type: Special Character
+Token: ;               | Type: Special Character
+Token: return          | Type: Keyword
+Token: 0               | Type: Constant
+Token: ;               | Type: Special Character
+Token: }               | Type: Special Character
